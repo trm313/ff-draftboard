@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "player_1",
+    "name": "Jonathan Taylor",
+    "position": "RB",
+    "tier": 1,
+    "rank": 1,
+    "vsADP": 0
+  },
+  {
+    "id": "player_2",
+    "name": "Christian McCaffrey",
+    "position": "RB",
+    "tier": 1,
+    "rank": 2,
+    "vsADP": 0
+  },
+  {
+    "id": "player_3",
+    "name": "Austin Ekeler",
+    "position": "RB",
+    "tier": 1,
+    "rank": 4,
+    "vsADP": 0
+  },
+  {
+    "id": "player_4",
+    "name": "Dalvin Cook",
+    "position": "RB",
+    "tier": 2,
+    "rank": 6,
+    "vsADP": 0
+  },
+  {
+    "id": "player_5",
+    "name": "Derrick Henry",
+    "position": "RB",
+    "tier": 2,
+    "rank": 8,
+    "vsADP": -3
+  },
+  {
+    "id": "player_6",
+    "name": "Joe Mixon",
+    "position": "RB",
+    "tier": 2,
+    "rank": 9,
+    "vsADP": 1
+  },
+  {
+    "id": "player_7",
+    "name": "Najee Harris",
+    "position": "RB",
+    "tier": 2,
+    "rank": 10,
+    "vsADP": -2
+  },
+  {
+    "id": "player_8",
+    "name": "Justin Jefferson",
+    "position": "WR",
+    "tier": 2,
+    "rank": 5,
+    "vsADP": 3
+  },
+  {
+    "id": "player_9",
+    "name": "Cooper Kupp",
+    "position": "WR",
+    "tier": 2,
+    "rank": 6,
+    "vsADP": 0
+  },
+  {
+    "id": "player_10",
+    "name": "Ja'Marr Chase",
+    "position": "WR",
+    "tier": 2,
+    "rank": 8,
+    "vsADP": 1
+  },
+  {
+    "id": "player_11",
+    "name": "Stefon Diggs",
+    "position": "WR",
+    "tier": 3,
+    "rank": 13,
+    "vsADP": 1
+  },
+  {
+    "id": "player_12",
+    "name": "Davante Adams",
+    "position": "WR",
+    "tier": 3,
+    "rank": 13,
+    "vsADP": -2
+  },
+  {
+    "id": "player_13",
+    "name": "CeeDee Lamb",
+    "position": "WR",
+    "tier": 3,
+    "rank": 16,
+    "vsADP": 0
+  },
+  {
+    "id": "player_14",
+    "name": "Travis Kelce",
+    "position": "TE",
+    "tier": 3,
+    "rank": 13,
+    "vsADP": 2
+  },
+  {
+    "id": "player_15",
+    "name": "Leonard Fournette",
+    "position": "RB",
+    "tier": 4,
+    "rank": 19,
+    "vsADP": 4
+  },
+  {
+    "id": "player_16",
+    "name": "Aaron Jones",
+    "position": "RB",
+    "tier": 4,
+    "rank": 20,
+    "vsADP": -4
+  },
+  {
+    "id": "player_17",
+    "name": "Nick Chubb",
+    "position": "RB",
+    "tier": 4,
+    "rank": 21,
+    "vsADP": -4
+  },
+  {
+    "id": "player_18",
+    "name": "Javante Williams",
+    "position": "RB",
+    "tier": 4,
+    "rank": 23,
+    "vsADP": 1
+  },
+  {
+    "id": "player_19",
+    "name": "Ezekiel Elliott",
+    "position": "RB",
+    "tier": 4,
+    "rank": 29,
+    "vsADP": -1
+  },
+  {
+    "id": "player_20",
+    "name": "James Conner",
+    "position": "RB",
+    "tier": 4,
+    "rank": 29,
+    "vsADP": -1
+  },
+  {
+    "id": "player_21",
+    "name": "Travis Etienne Jr.",
+    "position": "RB",
+    "tier": 5,
+    "rank": 35,
+    "vsADP": 9
+  },
+  {
+    "id": "player_22",
+    "name": "David Montgomery",
+    "position": "RB",
+    "tier": 5,
+    "rank": 37,
+    "vsADP": 4
+  },
+  {
+    "id": "player_23",
+    "name": "Breece Hall",
+    "position": "RB",
+    "tier": 6,
+    "rank": 43,
+    "vsADP": 0
+  },
+  {
+    "id": "player_24",
+    "name": "Cam Akers",
+    "position": "RB",
+    "tier": 6,
+    "rank": 43,
+    "vsADP": -4
+  },
+  {
+    "id": "player_25",
+    "name": "AJ Dillon",
+    "position": "RB",
+    "tier": 6,
+    "rank": 47,
+    "vsADP": 11
+  },
+  {
+    "id": "player_26",
+    "name": "Eljiah Mitchell",
+    "position": "RB",
+    "tier": 6,
+    "rank": 48,
+    "vsADP": -1
+  },
+  {
+    "id": "player_27",
+    "name": "Josh Jacobs",
+    "position": "RB",
+    "tier": 6,
+    "rank": 53,
+    "vsADP": -1
+  },
+  {
+    "id": "player_28",
+    "name": "Dameon Pierce",
+    "position": "RB",
+    "tier": 6,
+    "rank": 57,
+    "vsADP": 36
+  },
+  {
+    "id": "player_29",
+    "name": "Chase Edmonds",
+    "position": "RB",
+    "tier": 6,
+    "rank": 58,
+    "vsADP": 19
+  },
+  {
+    "id": "player_30",
+    "name": "J.K. Dobbins",
+    "position": "RB",
+    "tier": 6,
+    "rank": 58,
+    "vsADP": -5
+  },
+  {
+    "id": "player_31",
+    "name": "Antonio Gibson",
+    "position": "RB",
+    "tier": 6,
+    "rank": 59,
+    "vsADP": -4
+  },
+  {
+    "id": "player_32",
+    "name": "Damien Harris",
+    "position": "RB",
+    "tier": 7,
+    "rank": 65,
+    "vsADP": 7
+  },
+  {
+    "id": "player_33",
+    "name": "Clyde Edwards-Helaire",
+    "position": "RB",
+    "tier": 7,
+    "rank": 71,
+    "vsADP": -5
+  },
+  {
+    "id": "player_34",
+    "name": "Rashaad Penny",
+    "position": "RB",
+    "tier": 7,
+    "rank": 72,
+    "vsADP": 14
+  },
+  {
+    "id": "player_35",
+    "name": "Kareem Hunt",
+    "position": "RB",
+    "tier": 7,
+    "rank": 75,
+    "vsADP": 11
+  },
+  {
+    "id": "player_36",
+    "name": "Rhamondre Stevenson",
+    "position": "RB",
+    "tier": 7,
+    "rank": 76,
+    "vsADP": 16
+  },
+  {
+    "id": "player_37",
+    "name": "Miles Sanders",
+    "position": "RB",
+    "tier": 7,
+    "rank": 77,
+    "vsADP": -1
+  },
+  {
+    "id": "player_38",
+    "name": "Tony Pollard",
+    "position": "RB",
+    "tier": 8,
+    "rank": 80,
+    "vsADP": 2
+  },
+  {
+    "id": "player_39",
+    "name": "Cordarrelle Patterson",
+    "position": "RB",
+    "tier": 8,
+    "rank": 82,
+    "vsADP": 3
+  },
+  {
+    "id": "player_40",
+    "name": "Devin Singletary",
+    "position": "RB",
+    "tier": 8,
+    "rank": 83,
+    "vsADP": -5
+  },
+  {
+    "id": "player_41",
+    "name": "Melvin Gordon III",
+    "position": "RB",
+    "tier": 8,
+    "rank": 92,
+    "vsADP": 11
+  },
+  {
+    "id": "player_42",
+    "name": "Michael Carter",
+    "position": "RB",
+    "tier": 8,
+    "rank": 101,
+    "vsADP": 17
+  },
+  {
+    "id": "player_43",
+    "name": "James Cook",
+    "position": "RB",
+    "tier": 8,
+    "rank": 101,
+    "vsADP": 5
+  },
+  {
+    "id": "player_44",
+    "name": "Darrell Henderson Jr.",
+    "position": "RB",
+    "tier": 9,
+    "rank": 105,
+    "vsADP": 17
+  },
+  {
+    "id": "player_45",
+    "name": "Ken Walker III",
+    "position": "RB",
+    "tier": 9,
+    "rank": 106,
+    "vsADP": -8
+  },
+  {
+    "id": "player_46",
+    "name": "James Robinson",
+    "position": "RB",
+    "tier": 9,
+    "rank": 114,
+    "vsADP": 5
+  },
+  {
+    "id": "player_47",
+    "name": "Nyheim Hines",
+    "position": "RB",
+    "tier": 9,
+    "rank": 116,
+    "vsADP": 18
+  },
+  {
+    "id": "player_48",
+    "name": "Kenneth Gainwell",
+    "position": "RB",
+    "tier": 9,
+    "rank": 120,
+    "vsADP": 38
+  },
+  {
+    "id": "player_49",
+    "name": "Alexander Mattison",
+    "position": "RB",
+    "tier": 9,
+    "rank": 128,
+    "vsADP": 6
+  },
+  {
+    "id": "player_50",
+    "name": "J.D. McKissic",
+    "position": "RB",
+    "tier": 9,
+    "rank": 132,
+    "vsADP": 67
+  },
+  {
+    "id": "player_51",
+    "name": "Raheem Mostert",
+    "position": "RB",
+    "tier": 9,
+    "rank": 132,
+    "vsADP": 25
+  },
+  {
+    "id": "player_52",
+    "name": "Jamaal Williams",
+    "position": "RB",
+    "tier": 9,
+    "rank": 132,
+    "vsADP": 44
+  },
+  {
+    "id": "player_53",
+    "name": "Khalil Herbert",
+    "position": "RB",
+    "tier": 9,
+    "rank": 133,
+    "vsADP": 36
+  },
+  {
+    "id": "player_54",
+    "name": "Tyler Allgeier",
+    "position": "RB",
+    "tier": 10,
+    "rank": 135,
+    "vsADP": 27
+  },
+  {
+    "id": "player_55",
+    "name": "Zamir White",
+    "position": "RB",
+    "tier": 10,
+    "rank": 146,
+    "vsADP": 39
+  },
+  {
+    "id": "player_56",
+    "name": "Rachaad White",
+    "position": "RB",
+    "tier": 10,
+    "rank": 149,
+    "vsADP": 9
+  },
+  {
+    "id": "player_57",
+    "name": "Isiah Pacheco",
+    "position": "RB",
+    "tier": 10,
+    "rank": 150,
+    "vsADP": 10
+  },
+  {
+    "id": "player_58",
+    "name": "Brian Robinson Jr.",
+    "position": "RB",
+    "tier": 11,
+    "rank": 171,
+    "vsADP": -72
+  },
+  {
+    "id": "player_59",
+    "name": "Mark Ingram II",
+    "position": "RB",
+    "tier": 11,
+    "rank": 179,
+    "vsADP": -7
+  },
+  {
+    "id": "player_60",
+    "name": "Isaiah Spiller",
+    "position": "RB",
+    "tier": 11,
+    "rank": 181,
+    "vsADP": -42
+  },
+  {
+    "id": "player_61",
+    "name": "Boston Scott",
+    "position": "RB",
+    "tier": 11,
+    "rank": 185,
+    "vsADP": 0
+  },
+  {
+    "id": "player_62",
+    "name": "D'Onta Foreman",
+    "position": "RB",
+    "tier": 11,
+    "rank": 190,
+    "vsADP": 4
+  },
+  {
+    "id": "player_63",
+    "name": "Jeff Wilson Jr.",
+    "position": "RB",
+    "tier": 11,
+    "rank": 187,
+    "vsADP": 52
+  },
+  {
+    "id": "player_64",
+    "name": "Tyrion Davis-Price",
+    "position": "RB",
+    "tier": 12,
+    "rank": 204,
+    "vsADP": -1
+  },
+  {
+    "id": "player_65",
+    "name": "Sony Michel",
+    "position": "RB",
+    "tier": 12,
+    "rank": 210,
+    "vsADP": -42
+  },
+  {
+    "id": "player_66",
+    "name": "Rex Burkhead",
+    "position": "RB",
+    "tier": 13,
+    "rank": 213,
+    "vsADP": 0
+  },
+  {
+    "id": "player_67",
+    "name": "Darrel Williams",
+    "position": "RB",
+    "tier": 13,
+    "rank": 214,
+    "vsADP": -3
+  },
+  {
+    "id": "player_68",
+    "name": "Kenyan Drake",
+    "position": "RB",
+    "tier": 13,
+    "rank": 214,
+    "vsADP": 27
+  },
+  {
+    "id": "player_69",
+    "name": "Gus Edwards",
+    "position": "RB",
+    "tier": 13,
+    "rank": 218,
+    "vsADP": 3
+  },
+  {
+    "id": "player_70",
+    "name": "Samaje Perine",
+    "position": "RB",
+    "tier": 13,
+    "rank": 219,
+    "vsADP": 20
+  },
+  {
+    "id": "player_71",
+    "name": "Deebo Samuel",
+    "position": "WR",
+    "tier": 4,
+    "rank": 22,
+    "vsADP": 1
+  },
+  {
+    "id": "player_72",
+    "name": "Mike Evans",
+    "position": "WR",
+    "tier": 4,
+    "rank": 24,
+    "vsADP": 1
+  },
+  {
+    "id": "player_73",
+    "name": "Tyreek Hill",
+    "position": "WR",
+    "tier": 4,
+    "rank": 24,
+    "vsADP": -4
+  },
+  {
+    "id": "player_74",
+    "name": "A.J. Brown",
+    "position": "WR",
+    "tier": 4,
+    "rank": 27,
+    "vsADP": 4
+  },
+  {
+    "id": "player_75",
+    "name": "Michael Pittman Jr.",
+    "position": "WR",
+    "tier": 4,
+    "rank": 28,
+    "vsADP": 4
+  },
+  {
+    "id": "player_76",
+    "name": "Tee Higgins",
+    "position": "WR",
+    "tier": 4,
+    "rank": 29,
+    "vsADP": 4
+  },
+  {
+    "id": "player_77",
+    "name": "Keenan Allen",
+    "position": "WR",
+    "tier": 4,
+    "rank": 29,
+    "vsADP": -3
+  },
+  {
+    "id": "player_78",
+    "name": "DJ Moore",
+    "position": "WR",
+    "tier": 5,
+    "rank": 33,
+    "vsADP": 5
+  },
+  {
+    "id": "player_79",
+    "name": "Mike Williams",
+    "position": "WR",
+    "tier": 5,
+    "rank": 39,
+    "vsADP": 4
+  },
+  {
+    "id": "player_80",
+    "name": "Brandin Cooks",
+    "position": "WR",
+    "tier": 6,
+    "rank": 43,
+    "vsADP": 22
+  },
+  {
+    "id": "player_81",
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "tier": 6,
+    "rank": 44,
+    "vsADP": 1
+  },
+  {
+    "id": "player_82",
+    "name": "Courtland Sutton",
+    "position": "WR",
+    "tier": 6,
+    "rank": 44,
+    "vsADP": 3
+  },
+  {
+    "id": "player_83",
+    "name": "Diontae Johnson",
+    "position": "WR",
+    "tier": 6,
+    "rank": 44,
+    "vsADP": 4
+  },
+  {
+    "id": "player_84",
+    "name": "Jaylen Waddle",
+    "position": "WR",
+    "tier": 6,
+    "rank": 48,
+    "vsADP": 4
+  },
+  {
+    "id": "player_85",
+    "name": "DK Metcalf",
+    "position": "WR",
+    "tier": 6,
+    "rank": 51,
+    "vsADP": 4
+  },
+  {
+    "id": "player_86",
+    "name": "Allen Robinson II",
+    "position": "WR",
+    "tier": 6,
+    "rank": 54,
+    "vsADP": -1
+  },
+  {
+    "id": "player_87",
+    "name": "Darnell Mooney",
+    "position": "WR",
+    "tier": 6,
+    "rank": 57,
+    "vsADP": 26
+  },
+  {
+    "id": "player_88",
+    "name": "Gabriel Davis",
+    "position": "WR",
+    "tier": 6,
+    "rank": 59,
+    "vsADP": 7
+  },
+  {
+    "id": "player_89",
+    "name": "Marquise Brown",
+    "position": "WR",
+    "tier": 7,
+    "rank": 65,
+    "vsADP": 1
+  },
+  {
+    "id": "player_90",
+    "name": "Amon-Ra St. Brown",
+    "position": "WR",
+    "tier": 7,
+    "rank": 66,
+    "vsADP": -1
+  },
+  {
+    "id": "player_91",
+    "name": "JuJu Smith-Schuster",
+    "position": "WR",
+    "tier": 7,
+    "rank": 68,
+    "vsADP": -5
+  },
+  {
+    "id": "player_92",
+    "name": "Rashod Bateman",
+    "position": "WR",
+    "tier": 7,
+    "rank": 71,
+    "vsADP": 9
+  },
+  {
+    "id": "player_93",
+    "name": "Jerry Jeudy",
+    "position": "WR",
+    "tier": 7,
+    "rank": 72,
+    "vsADP": -11
+  },
+  {
+    "id": "player_94",
+    "name": "Michael Thomas",
+    "position": "WR",
+    "tier": 7,
+    "rank": 74,
+    "vsADP": -5
+  },
+  {
+    "id": "player_95",
+    "name": "Elijah Moore",
+    "position": "WR",
+    "tier": 7,
+    "rank": 78,
+    "vsADP": 16
+  },
+  {
+    "id": "player_96",
+    "name": "Amari Cooper",
+    "position": "WR",
+    "tier": 8,
+    "rank": 78,
+    "vsADP": -6
+  },
+  {
+    "id": "player_97",
+    "name": "Chris Godwin",
+    "position": "WR",
+    "tier": 8,
+    "rank": 80,
+    "vsADP": -4
+  },
+  {
+    "id": "player_98",
+    "name": "Adam Thielen",
+    "position": "WR",
+    "tier": 8,
+    "rank": 86,
+    "vsADP": -16
+  },
+  {
+    "id": "player_99",
+    "name": "Hunter Renfrow",
+    "position": "WR",
+    "tier": 8,
+    "rank": 91,
+    "vsADP": -1
+  },
+  {
+    "id": "player_100",
+    "name": "Christian Kirk",
+    "position": "WR",
+    "tier": 8,
+    "rank": 91,
+    "vsADP": 16
+  },
+  {
+    "id": "player_101",
+    "name": "DeVonta Smith",
+    "position": "WR",
+    "tier": 8,
+    "rank": 93,
+    "vsADP": 4
+  },
+  {
+    "id": "player_102",
+    "name": "Allen Lazard",
+    "position": "WR",
+    "tier": 8,
+    "rank": 93,
+    "vsADP": 6
+  },
+  {
+    "id": "player_103",
+    "name": "Brandon Aiyuk",
+    "position": "WR",
+    "tier": 8,
+    "rank": 96,
+    "vsADP": 3
+  },
+  {
+    "id": "player_104",
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "tier": 8,
+    "rank": 97,
+    "vsADP": 11
+  },
+  {
+    "id": "player_105",
+    "name": "Drake London",
+    "position": "WR",
+    "tier": 8,
+    "rank": 98,
+    "vsADP": 6
+  },
+  {
+    "id": "player_106",
+    "name": "Robert Woods",
+    "position": "WR",
+    "tier": 9,
+    "rank": 107,
+    "vsADP": 6
+  },
+  {
+    "id": "player_107",
+    "name": "DeAndre Hopkins",
+    "position": "WR",
+    "tier": 9,
+    "rank": 112,
+    "vsADP": -19
+  },
+  {
+    "id": "player_108",
+    "name": "Kadarius Toney",
+    "position": "WR",
+    "tier": 9,
+    "rank": 115,
+    "vsADP": 12
+  },
+  {
+    "id": "player_109",
+    "name": "Chris Olave",
+    "position": "WR",
+    "tier": 9,
+    "rank": 118,
+    "vsADP": -1
+  },
+  {
+    "id": "player_110",
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "tier": 9,
+    "rank": 122,
+    "vsADP": 80
+  },
+  {
+    "id": "player_111",
+    "name": "George Pickens",
+    "position": "WR",
+    "tier": 9,
+    "rank": 126,
+    "vsADP": 6
+  },
+  {
+    "id": "player_112",
+    "name": "Tyler Boyd",
+    "position": "WR",
+    "tier": 9,
+    "rank": 130,
+    "vsADP": 23
+  },
+  {
+    "id": "player_113",
+    "name": "Russell Gage",
+    "position": "WR",
+    "tier": 9,
+    "rank": 131,
+    "vsADP": 16
+  },
+  {
+    "id": "player_114",
+    "name": "Chase Claypool",
+    "position": "WR",
+    "tier": 9,
+    "rank": 132,
+    "vsADP": 1
+  },
+  {
+    "id": "player_115",
+    "name": "Garrett Wilson",
+    "position": "WR",
+    "tier": 10,
+    "rank": 136,
+    "vsADP": 7
+  },
+  {
+    "id": "player_116",
+    "name": "Treylon Burks",
+    "position": "WR",
+    "tier": 10,
+    "rank": 138,
+    "vsADP": 6
+  },
+  {
+    "id": "player_117",
+    "name": "DaVante Parker",
+    "position": "WR",
+    "tier": 10,
+    "rank": 143,
+    "vsADP": 21
+  },
+  {
+    "id": "player_118",
+    "name": "Marquez Valdes-Scantling",
+    "position": "WR",
+    "tier": 10,
+    "rank": 144,
+    "vsADP": 3
+  },
+  {
+    "id": "player_119",
+    "name": "Skyy Moore",
+    "position": "WR",
+    "tier": 10,
+    "rank": 147,
+    "vsADP": 1
+  },
+  {
+    "id": "player_120",
+    "name": "Julio Jones",
+    "position": "WR",
+    "tier": 10,
+    "rank": 151,
+    "vsADP": -15
+  },
+  {
+    "id": "player_121",
+    "name": "Nico Collins",
+    "position": "WR",
+    "tier": 10,
+    "rank": 151,
+    "vsADP": 63
+  },
+  {
+    "id": "player_122",
+    "name": "DJ Chark Jr.",
+    "position": "WR",
+    "tier": 10,
+    "rank": 154,
+    "vsADP": 23
+  },
+  {
+    "id": "player_123",
+    "name": "Michael Gallup",
+    "position": "WR",
+    "tier": 10,
+    "rank": 155,
+    "vsADP": 17
+  },
+  {
+    "id": "player_124",
+    "name": "Jarvis Landry",
+    "position": "WR",
+    "tier": 10,
+    "rank": 157,
+    "vsADP": -8
+  },
+  {
+    "id": "player_125",
+    "name": "Rondale Moore",
+    "position": "WR",
+    "tier": 10,
+    "rank": 160,
+    "vsADP": 18
+  },
+  {
+    "id": "player_126",
+    "name": "Jahan Dotson",
+    "position": "WR",
+    "tier": 10,
+    "rank": 166,
+    "vsADP": 2
+  },
+  {
+    "id": "player_127",
+    "name": "Kenny Golladay",
+    "position": "WR",
+    "tier": 11,
+    "rank": 172,
+    "vsADP": 6
+  },
+  {
+    "id": "player_128",
+    "name": "Wan'Dale Robinson",
+    "position": "WR",
+    "tier": 11,
+    "rank": 179,
+    "vsADP": 55
+  },
+  {
+    "id": "player_129",
+    "name": "Mecole Hardman",
+    "position": "WR",
+    "tier": 11,
+    "rank": 179,
+    "vsADP": -3
+  },
+  {
+    "id": "player_130",
+    "name": "Joshua Palmer",
+    "position": "WR",
+    "tier": 11,
+    "rank": 179,
+    "vsADP": 15
+  },
+  {
+    "id": "player_131",
+    "name": "Jalen Tolbert",
+    "position": "WR",
+    "tier": 11,
+    "rank": 180,
+    "vsADP": 8
+  },
+  {
+    "id": "player_132",
+    "name": "Isaiah McKenzie",
+    "position": "WR",
+    "tier": 11,
+    "rank": 186,
+    "vsADP": 21
+  },
+  {
+    "id": "player_133",
+    "name": "Marvin Jones Jr.",
+    "position": "WR",
+    "tier": 11,
+    "rank": 189,
+    "vsADP": 54
+  },
+  {
+    "id": "player_134",
+    "name": "Robbie Anderson",
+    "position": "WR",
+    "tier": 11,
+    "rank": 190,
+    "vsADP": 57
+  },
+  {
+    "id": "player_135",
+    "name": "Romeo Doubs",
+    "position": "WR",
+    "tier": 11,
+    "rank": 192,
+    "vsADP": -25
+  },
+  {
+    "id": "player_136",
+    "name": "K.J. Osborn",
+    "position": "WR",
+    "tier": 11,
+    "rank": 192,
+    "vsADP": 35
+  },
+  {
+    "id": "player_137",
+    "name": "Corey Davis",
+    "position": "WR",
+    "tier": 11,
+    "rank": 201,
+    "vsADP": 66
+  },
+  {
+    "id": "player_138",
+    "name": "Alec Pierce",
+    "position": "WR",
+    "tier": 11,
+    "rank": 203,
+    "vsADP": 25
+  },
+  {
+    "id": "player_139",
+    "name": "KJ Hamler",
+    "position": "WR",
+    "tier": 12,
+    "rank": 206,
+    "vsADP": 33
+  },
+  {
+    "id": "player_140",
+    "name": "Van Jefferson",
+    "position": "WR",
+    "tier": 12,
+    "rank": 206,
+    "vsADP": 34
+  },
+  {
+    "id": "player_141",
+    "name": "Jameson Williams",
+    "position": "WR",
+    "tier": 12,
+    "rank": 207,
+    "vsADP": -15
+  },
+  {
+    "id": "player_142",
+    "name": "Christian Watson",
+    "position": "WR",
+    "tier": 12,
+    "rank": 210,
+    "vsADP": -32
+  },
+  {
+    "id": "player_143",
+    "name": "Donovan Peoples-Jones",
+    "position": "WR",
+    "tier": 13,
+    "rank": 219,
+    "vsADP": 43
+  },
+  {
+    "id": "player_144",
+    "name": "Mark Andrews",
+    "position": "TE",
+    "tier": 4,
+    "rank": 21,
+    "vsADP": 5
+  },
+  {
+    "id": "player_145",
+    "name": "Kyle Pitts",
+    "position": "TE",
+    "tier": 5,
+    "rank": 36,
+    "vsADP": -1
+  },
+  {
+    "id": "player_146",
+    "name": "George Kittle",
+    "position": "TE",
+    "tier": 6,
+    "rank": 53,
+    "vsADP": -12
+  },
+  {
+    "id": "player_147",
+    "name": "Darren Waller",
+    "position": "TE",
+    "tier": 6,
+    "rank": 57,
+    "vsADP": -6
+  },
+  {
+    "id": "player_148",
+    "name": "Dalton Schultz",
+    "position": "TE",
+    "tier": 7,
+    "rank": 64,
+    "vsADP": -5
+  },
+  {
+    "id": "player_149",
+    "name": "Dallas Goedert",
+    "position": "TE",
+    "tier": 7,
+    "rank": 74,
+    "vsADP": -5
+  },
+  {
+    "id": "player_150",
+    "name": "T.J. Hockenson",
+    "position": "TE",
+    "tier": 8,
+    "rank": 82,
+    "vsADP": -19
+  },
+  {
+    "id": "player_151",
+    "name": "Dawson Knox",
+    "position": "TE",
+    "tier": 8,
+    "rank": 96,
+    "vsADP": -15
+  },
+  {
+    "id": "player_152",
+    "name": "Zach Ertz",
+    "position": "TE",
+    "tier": 8,
+    "rank": 97,
+    "vsADP": -2
+  },
+  {
+    "id": "player_153",
+    "name": "Pat Freiermuth",
+    "position": "TE",
+    "tier": 9,
+    "rank": 110,
+    "vsADP": 4
+  },
+  {
+    "id": "player_154",
+    "name": "Cole Kmet",
+    "position": "TE",
+    "tier": 9,
+    "rank": 111,
+    "vsADP": 12
+  },
+  {
+    "id": "player_155",
+    "name": "Hunter Henry",
+    "position": "TE",
+    "tier": 9,
+    "rank": 128,
+    "vsADP": 22
+  },
+  {
+    "id": "player_156",
+    "name": "Irv Smith Jr.",
+    "position": "TE",
+    "tier": 10,
+    "rank": 137,
+    "vsADP": 72
+  },
+  {
+    "id": "player_157",
+    "name": "David Njoku",
+    "position": "TE",
+    "tier": 10,
+    "rank": 143,
+    "vsADP": 27
+  },
+  {
+    "id": "player_158",
+    "name": "Albert Okwuegbunam",
+    "position": "TE",
+    "tier": 10,
+    "rank": 143,
+    "vsADP": -2
+  },
+  {
+    "id": "player_159",
+    "name": "Tyler Higbee",
+    "position": "TE",
+    "tier": 10,
+    "rank": 146,
+    "vsADP": 30
+  },
+  {
+    "id": "player_160",
+    "name": "Mike Gesicki",
+    "position": "TE",
+    "tier": 10,
+    "rank": 148,
+    "vsADP": -16
+  },
+  {
+    "id": "player_161",
+    "name": "Gerald Everett",
+    "position": "TE",
+    "tier": 10,
+    "rank": 152,
+    "vsADP": 71
+  },
+  {
+    "id": "player_162",
+    "name": "Noah Fant",
+    "position": "TE",
+    "tier": 10,
+    "rank": 163,
+    "vsADP": 57
+  },
+  {
+    "id": "player_163",
+    "name": "Austin Hooper",
+    "position": "TE",
+    "tier": 10,
+    "rank": 165,
+    "vsADP": 65
+  },
+  {
+    "id": "player_164",
+    "name": "Evan Engram",
+    "position": "TE",
+    "tier": 10,
+    "rank": 165,
+    "vsADP": 62
+  },
+  {
+    "id": "player_165",
+    "name": "Robert Tonyan",
+    "position": "TE",
+    "tier": 11,
+    "rank": 181,
+    "vsADP": 34
+  },
+  {
+    "id": "player_166",
+    "name": "Hayden Hurst",
+    "position": "TE",
+    "tier": 11,
+    "rank": 190,
+    "vsADP": 7
+  },
+  {
+    "id": "player_167",
+    "name": "Brevin Jordan",
+    "position": "TE",
+    "tier": 11,
+    "rank": 195,
+    "vsADP": 0
+  },
+  {
+    "id": "player_168",
+    "name": "Logan Thomas",
+    "position": "TE",
+    "tier": 11,
+    "rank": 197,
+    "vsADP": 43
+  },
+  {
+    "id": "player_169",
+    "name": "Josh Allen",
+    "position": "QB",
+    "tier": 5,
+    "rank": 34,
+    "vsADP": -13
+  },
+  {
+    "id": "player_170",
+    "name": "Justin Herbert",
+    "position": "QB",
+    "tier": 6,
+    "rank": 46,
+    "vsADP": -9
+  },
+  {
+    "id": "player_171",
+    "name": "Patrick Mahomes II",
+    "position": "QB",
+    "tier": 6,
+    "rank": 49,
+    "vsADP": -16
+  },
+  {
+    "id": "player_172",
+    "name": "Lamar Jackson",
+    "position": "QB",
+    "tier": 6,
+    "rank": 58,
+    "vsADP": -14
+  },
+  {
+    "id": "player_173",
+    "name": "Kyler Murray",
+    "position": "QB",
+    "tier": 7,
+    "rank": 64,
+    "vsADP": -3
+  },
+  {
+    "id": "player_174",
+    "name": "Jalen Hurts",
+    "position": "QB",
+    "tier": 7,
+    "rank": 65,
+    "vsADP": -3
+  },
+  {
+    "id": "player_175",
+    "name": "Joe Burrow",
+    "position": "QB",
+    "tier": 7,
+    "rank": 73,
+    "vsADP": -18
+  },
+  {
+    "id": "player_176",
+    "name": "Tom Brady",
+    "position": "QB",
+    "tier": 7,
+    "rank": 78,
+    "vsADP": -9
+  },
+  {
+    "id": "player_177",
+    "name": "Russell Wilson",
+    "position": "QB",
+    "tier": 8,
+    "rank": 85,
+    "vsADP": -13
+  },
+  {
+    "id": "player_178",
+    "name": "Dak Prescott",
+    "position": "QB",
+    "tier": 8,
+    "rank": 86,
+    "vsADP": -4
+  },
+  {
+    "id": "player_179",
+    "name": "Trey Lance",
+    "position": "QB",
+    "tier": 8,
+    "rank": 96,
+    "vsADP": 6
+  },
+  {
+    "id": "player_180",
+    "name": "Matthew Stafford",
+    "position": "QB",
+    "tier": 8,
+    "rank": 98,
+    "vsADP": 2
+  },
+  {
+    "id": "player_181",
+    "name": "Aaron Rodgers",
+    "position": "QB",
+    "tier": 8,
+    "rank": 100,
+    "vsADP": -12
+  },
+  {
+    "id": "player_182",
+    "name": "Kirk Cousins",
+    "position": "QB",
+    "tier": 9,
+    "rank": 112,
+    "vsADP": 18
+  },
+  {
+    "id": "player_183",
+    "name": "Derek Carr",
+    "position": "QB",
+    "tier": 9,
+    "rank": 112,
+    "vsADP": 2
+  },
+  {
+    "id": "player_184",
+    "name": "Justin Fields",
+    "position": "QB",
+    "tier": 9,
+    "rank": 126,
+    "vsADP": 42
+  },
+  {
+    "id": "player_185",
+    "name": "Tua Tagovailoa",
+    "position": "QB",
+    "tier": 9,
+    "rank": 126,
+    "vsADP": 30
+  },
+  {
+    "id": "player_186",
+    "name": "Trevor Lawrence",
+    "position": "QB",
+    "tier": 10,
+    "rank": 139,
+    "vsADP": 47
+  },
+  {
+    "id": "player_187",
+    "name": "Matt Ryan",
+    "position": "QB",
+    "tier": 10,
+    "rank": 148,
+    "vsADP": 56
+  },
+  {
+    "id": "player_188",
+    "name": "Ryan Tannehill",
+    "position": "QB",
+    "tier": 10,
+    "rank": 164,
+    "vsADP": 31
+  },
+  {
+    "id": "player_189",
+    "name": "Jameis Winston",
+    "position": "QB",
+    "tier": 10,
+    "rank": 169,
+    "vsADP": 21
+  },
+  {
+    "id": "player_190",
+    "name": "Mac Jones",
+    "position": "QB",
+    "tier": 11,
+    "rank": 174,
+    "vsADP": 3
+  },
+  {
+    "id": "player_191",
+    "name": "Daniel Jones",
+    "position": "QB",
+    "tier": 11,
+    "rank": 180,
+    "vsADP": 67
+  },
+  {
+    "id": "player_192",
+    "name": "Jared Goff",
+    "position": "QB",
+    "tier": 11,
+    "rank": 188,
+    "vsADP": 34
+  },
+  {
+    "id": "player_193",
+    "name": "Carson Wentz",
+    "position": "QB",
+    "tier": 11,
+    "rank": 202,
+    "vsADP": -4
+  },
+  {
+    "id": "player_194",
+    "name": "Baker Mayfield",
+    "position": "QB",
+    "tier": 11,
+    "rank": 203,
+    "vsADP": -34
+  },
+  {
+    "id": "player_195",
+    "name": "Zach Wilson",
+    "position": "QB",
+    "tier": 12,
+    "rank": 209,
+    "vsADP": 54
+  },
+  {
+    "id": "player_196",
+    "name": "Buccaneers",
+    "position": "DST",
+    "tier": 10,
+    "rank": 152,
+    "vsADP": -56
+  },
+  {
+    "id": "player_197",
+    "name": "Bills",
+    "position": "DST",
+    "tier": 10,
+    "rank": 153,
+    "vsADP": -68
+  },
+  {
+    "id": "player_198",
+    "name": "49ers",
+    "position": "DST",
+    "tier": 10,
+    "rank": 165,
+    "vsADP": -54
+  },
+  {
+    "id": "player_199",
+    "name": "Colts",
+    "position": "DST",
+    "tier": 11,
+    "rank": 173,
+    "vsADP": -41
+  },
+  {
+    "id": "player_200",
+    "name": "Saints",
+    "position": "DST",
+    "tier": 11,
+    "rank": 177,
+    "vsADP": -32
+  },
+  {
+    "id": "player_201",
+    "name": "Rams",
+    "position": "DST",
+    "tier": 11,
+    "rank": 179,
+    "vsADP": -64
+  },
+  {
+    "id": "player_202",
+    "name": "Broncos",
+    "position": "DST",
+    "tier": 11,
+    "rank": 182,
+    "vsADP": -38
+  },
+  {
+    "id": "player_203",
+    "name": "Patriots",
+    "position": "DST",
+    "tier": 11,
+    "rank": 185,
+    "vsADP": 13
+  },
+  {
+    "id": "player_204",
+    "name": "Cowboys",
+    "position": "DST",
+    "tier": 11,
+    "rank": 192,
+    "vsADP": -50
+  },
+  {
+    "id": "player_205",
+    "name": "Chargers",
+    "position": "DST",
+    "tier": 11,
+    "rank": 200,
+    "vsADP": -2
+  },
+  {
+    "id": "player_206",
+    "name": "Packers",
+    "position": "DST",
+    "tier": 11,
+    "rank": 200,
+    "vsADP": -58
+  },
+  {
+    "id": "player_207",
+    "name": "Dolphins",
+    "position": "DST",
+    "tier": 12,
+    "rank": 209,
+    "vsADP": 34
+  },
+  {
+    "id": "player_208",
+    "name": "Chiefs",
+    "position": "DST",
+    "tier": 12,
+    "rank": 209,
+    "vsADP": 42
+  },
+  {
+    "id": "player_209",
+    "name": "Browns",
+    "position": "DST",
+    "tier": 13,
+    "rank": 216,
+    "vsADP": 4
+  },
+  {
+    "id": "player_210",
+    "name": "Justin Tucker",
+    "position": "K",
+    "tier": 11,
+    "rank": 175,
+    "vsADP": -62
+  },
+  {
+    "id": "player_211",
+    "name": "Tyler Bass",
+    "position": "K",
+    "tier": 11,
+    "rank": 188,
+    "vsADP": -62
+  },
+  {
+    "id": "player_212",
+    "name": "Matt Gay",
+    "position": "K",
+    "tier": 11,
+    "rank": 192,
+    "vsADP": -68
+  },
+  {
+    "id": "player_213",
+    "name": "Evan McPherson",
+    "position": "K",
+    "tier": 11,
+    "rank": 196,
+    "vsADP": -78
+  },
+  {
+    "id": "player_214",
+    "name": "Daniel Carlson",
+    "position": "K",
+    "tier": 11,
+    "rank": 197,
+    "vsADP": -75
+  },
+  {
+    "id": "player_215",
+    "name": "Harrison Butker",
+    "position": "K",
+    "tier": 12,
+    "rank": 210,
+    "vsADP": -84
+  },
+  {
+    "id": "player_216",
+    "name": "Ryan Succop",
+    "position": "K",
+    "tier": 13,
+    "rank": 214,
+    "vsADP": 3
+  }
+]
