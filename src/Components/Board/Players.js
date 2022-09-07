@@ -26,6 +26,14 @@ export default function Players({
     return ranksInTier;
   };
 
+  const getRemainingPlayersInTier = (tier) => {
+    let playersInTier = players.filter((p) => p.tier === tier);
+    let remainingPlayersInTier = playersInTier.filter(
+      (p) => !draftSessionSequence.includes(p.id)
+    );
+    return remainingPlayersInTier;
+  };
+
   const getPlayersForRank = (rank) => {
     let playersInRank = players.filter((p) => p.rank === rank);
     return playersInRank;
@@ -38,7 +46,11 @@ export default function Players({
       {tiers.map((t) => {
         let ranksInTier = getRanksForTier(t);
         return (
-          <Tier key={`tier_${t}`} tier={t}>
+          <Tier
+            key={`tier_${t}`}
+            tier={t}
+            hasAvailablePlayers={getRemainingPlayersInTier(t).length > 0}
+          >
             {ranksInTier.map((rank) => {
               let playersInRank = getPlayersForRank(rank);
               return (

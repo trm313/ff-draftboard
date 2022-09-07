@@ -5,8 +5,8 @@ import { styles, icons } from "./styles.js";
 
 const btnStyles = {
   default: {
-    bg: "gray.100",
-    color: "gray.800",
+    // bg: "dark.400",
+    color: "gray.400",
   },
   like: {
     bg: "red.200",
@@ -17,7 +17,7 @@ const btnStyles = {
     color: "blue.600",
   },
   draft: {
-    bg: "gray.600",
+    bg: "gray.800",
     color: "gray.200",
   },
 };
@@ -43,7 +43,7 @@ const ActionBtn = ({
         color={isActive ? btnStyles[action].color : btnStyles.default.color}
         bg={isActive ? btnStyles[action].bg : btnStyles.default.bg}
       >
-        Draft
+        {isActive ? "Drafted" : "Draft"}
       </Button>
     );
   }
