@@ -16,11 +16,13 @@ import ActionBar from "./ActionBar";
 const Player = ({
   player,
   isDrafted = false,
+  isKeeper,
   isLiked,
   isAvoided,
   onDrafted,
   onLiked,
   onAvoided,
+  onKeeper,
 }) => {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -28,6 +30,7 @@ const Player = ({
     if (type === "draft") onDrafted(player);
     if (type === "like") onLiked(player.id);
     if (type === "avoid") onAvoided(player.id);
+    if (type === "keeper") onKeeper(player.id);
 
     // Close
     onToggle();
@@ -38,6 +41,9 @@ const Player = ({
   if (isLiked) activeIndicators.push("like");
   if (isAvoided) activeIndicators.push("avoid");
   if (isDrafted) activeIndicators.push("draft");
+  if (isKeeper) activeIndicators.push("keeper");
+
+  let isUnavailable = isDrafted || isKeeper;
 
   return (
     <Flex
@@ -49,7 +55,7 @@ const Player = ({
     >
       <Flex
         alignItems='center'
-        opacity={isDrafted ? styles.opacity.drafted : 1}
+        opacity={isUnavailable ? styles.opacity.drafted : 1}
       >
         <Flex
           alignItems='center'
@@ -68,8 +74,20 @@ const Player = ({
         <Flex
           alignItems='center'
           mr={4}
-          opacity={isDrafted ? styles.opacity.drafted : 1}
+          opacity={isUnavailable ? styles.opacity.drafted : 1}
         >
+          {isKeeper && (
+            <Icon
+              as={icons.keeper.active}
+              color='green.600'
+              bg='green.200'
+              h={6}
+              w={6}
+              p={1}
+              rounded='full'
+              mr={2}
+            />
+          )}
           {isLiked && (
             <Icon
               as={icons.liked.active}

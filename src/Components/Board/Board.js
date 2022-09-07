@@ -17,6 +17,7 @@ export default function Board() {
 
   const [liked, setLiked] = useState([]);
   const [avoided, setAvoided] = useState([]);
+  const [keepers, setKeepers] = useState([]);
 
   // FUNCTIONS
 
@@ -42,6 +43,18 @@ export default function Board() {
     }
     updateLocalStorage("avoided", state);
     setAvoided(state);
+  };
+
+  const handlePlayerKeeper = (id) => {
+    let state = [...keepers];
+    let index = state.indexOf(id);
+    if (index === -1) {
+      state.push(id);
+    } else {
+      state.splice(index, 1);
+    }
+    updateLocalStorage("keepers", state);
+    setKeepers(state);
   };
 
   const handlePlayerDrafted = (player) => {
@@ -70,9 +83,11 @@ export default function Board() {
       let liked = getLocalStorage("liked") || [];
       let avoided = getLocalStorage("avoided") || [];
       let drafted = getLocalStorage("drafted") || [];
+      let keepers = getLocalStorage("keepers") || [];
       setLiked(liked);
       setAvoided(avoided);
       setDraftSessionSequence(drafted);
+      setKeepers(keepers);
     };
     loadDataFromLocalStorage();
   }, []);
@@ -86,10 +101,12 @@ export default function Board() {
         players={visiblePlayers}
         liked={liked}
         avoided={avoided}
+        keepers={keepers}
         draftSessionSequence={draftSessionSequence}
         onPlayerDrafted={handlePlayerDrafted}
         onPlayerLiked={handlePlayerLiked}
         onPlayerAvoided={handlePlayerAvoided}
+        onPlayerKeeper={handlePlayerKeeper}
       />
     </Flex>
   );

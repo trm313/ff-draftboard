@@ -1,7 +1,13 @@
 // PLAYER STYLES
 import { TbCircleDotted } from "react-icons/tb";
 import { HiHeart, HiOutlineHeart } from "react-icons/hi";
-import { RiThumbDownFill, RiThumbDownLine } from "react-icons/ri";
+import {
+  RiThumbDownFill,
+  RiThumbDownLine,
+  RiUserShared2Line,
+  RiUserShared2Fill,
+} from "react-icons/ri";
+import { BsSquare, BsCheck2Square } from "react-icons/bs";
 
 export const styles = {
   opacity: {
@@ -64,8 +70,13 @@ export const icons = {
     color: "blue.600",
   },
   draft: {
-    active: TbCircleDotted,
-    inactive: TbCircleDotted,
+    active: BsCheck2Square,
+    inactive: BsSquare,
     color: "gray.400",
+  },
+  keeper: {
+    active: RiUserShared2Fill,
+    inactive: RiUserShared2Line,
+    color: "green.600",
   },
 };

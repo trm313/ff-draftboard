@@ -8,10 +8,12 @@ export default function Players({
   players = [],
   liked,
   avoided,
+  keepers,
   draftSessionSequence = [],
   onPlayerDrafted,
   onPlayerLiked,
   onPlayerAvoided,
+  onPlayerKeeper,
 }) {
   const getTiers = (players) => {
     let tiers = players.map((p) => p.tier);
@@ -29,7 +31,7 @@ export default function Players({
   const getRemainingPlayersInTier = (tier) => {
     let playersInTier = players.filter((p) => p.tier === tier);
     let remainingPlayersInTier = playersInTier.filter(
-      (p) => !draftSessionSequence.includes(p.id)
+      (p) => !draftSessionSequence.includes(p.id) && !keepers.includes(p.id)
     );
     return remainingPlayersInTier;
   };
@@ -62,9 +64,11 @@ export default function Players({
                       isLiked={liked.indexOf(player.id) !== -1}
                       isAvoided={avoided.indexOf(player.id) !== -1}
                       isDrafted={draftSessionSequence.indexOf(player.id) !== -1}
+                      isKeeper={keepers.indexOf(player.id) !== -1}
                       onDrafted={onPlayerDrafted}
                       onLiked={onPlayerLiked}
                       onAvoided={onPlayerAvoided}
+                      onKeeper={onPlayerKeeper}
                     />
                   ))}
                 </Rank>
