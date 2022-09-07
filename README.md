@@ -1,5 +1,10 @@
 # Fantasy Football Draftboard
 
+## Upcoming Work
+
+[] Store state to localStorage for persistence
+[] Implement lazy loading of player list (react-lazy-load)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

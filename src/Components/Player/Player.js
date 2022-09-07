@@ -13,19 +13,21 @@ import { GrFormClose } from "react-icons/gr";
 import { styles, icons } from "./styles.js";
 import ActionBar from "./ActionBar";
 
-const Player = ({ player, isDrafted = false, onDrafted }) => {
+const Player = ({
+  player,
+  isDrafted = false,
+  isLiked,
+  isAvoided,
+  onDrafted,
+  onLiked,
+  onAvoided,
+}) => {
   const { isOpen, onToggle } = useDisclosure();
-
-  // TODO: Replace with controlled data from storage
-  const [isLiked, setIsLiked] = useState(false);
-  const [isAvoided, setIsAvoided] = useState(false);
 
   const handleAction = (type) => {
     if (type === "draft") onDrafted(player);
-
-    // TODO: Connect to storage functions
-    if (type === "like") setIsLiked(!isLiked);
-    if (type === "avoid") setIsAvoided(!isAvoided);
+    if (type === "like") onLiked(player.id);
+    if (type === "avoid") onAvoided(player.id);
 
     // Close
     onToggle();

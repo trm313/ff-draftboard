@@ -6,8 +6,12 @@ import Rank from "./Rank";
 
 export default function Players({
   players = [],
-  onPlayerDrafted,
+  liked,
+  avoided,
   draftSessionSequence = [],
+  onPlayerDrafted,
+  onPlayerLiked,
+  onPlayerAvoided,
 }) {
   const getTiers = (players) => {
     let tiers = players.map((p) => p.tier);
@@ -43,8 +47,12 @@ export default function Players({
                     <Player
                       key={`player_${player.id}`}
                       player={player}
+                      isLiked={liked.indexOf(player.id) !== -1}
+                      isAvoided={avoided.indexOf(player.id) !== -1}
                       isDrafted={draftSessionSequence.indexOf(player.id) !== -1}
                       onDrafted={onPlayerDrafted}
+                      onLiked={onPlayerLiked}
+                      onAvoided={onPlayerAvoided}
                     />
                   ))}
                 </Rank>

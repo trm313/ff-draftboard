@@ -1,25 +1,24 @@
 import { useState } from "react";
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Text, Box } from "@chakra-ui/react";
 
 const Rank = ({ children, rank }) => {
   return (
-    <Flex
-      direction='column'
-      borderLeftColor='gray.700'
-      borderLeftWidth={"8px"}
-      my={1}
-    >
-      <Flex
-        bg='gray.700'
-        alignSelf='start'
-        py={1}
-        px={4}
-        roundedRight='md'
-        mb={1}
-      >
-        <Text fontSize='xs'>{rank}</Text>
+    <Flex direction='row' my={1} px={1}>
+      <Flex direction='column' alignItems='center'>
+        <Flex
+          bg='gray.700'
+          alignSelf='start'
+          rounded='full'
+          w={7}
+          h={7}
+          justifyContent='center'
+          alignItems='center'
+        >
+          <Text fontSize='xs'>{rank}</Text>
+        </Flex>
+        <Box w={1} bg='gray.700' flexGrow={1} />
       </Flex>
-      <Flex direction='column' ml={4}>
+      <Flex direction='column' ml={2} flexGrow={1}>
         {children}
       </Flex>
     </Flex>
