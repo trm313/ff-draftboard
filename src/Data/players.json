@@ -1726,5 +1726,37 @@
     "tier": 13,
     "rank": 214,
     "vsADP": 3
+  },
+  {
+    "id": "player_217",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "tier": 3,
+    "rank": 14,
+    "vsADP": 0
+  },
+  {
+    "id": "player_218",
+    "name": "Saquon Barkley",
+    "position": "RB",
+    "tier": 3,
+    "rank": 15,
+    "vsADP": 0
+  },
+  {
+    "id": "player_219",
+    "name": "D'Andre Swift",
+    "position": "RB",
+    "tier": 3,
+    "rank": 16,
+    "vsADP": -4
+  },
+  {
+    "id": "player_220",
+    "name": "Leonard Fournette",
+    "position": "RB",
+    "tier": 3,
+    "rank": 20,
+    "vsADP": 4
   }
 ]
