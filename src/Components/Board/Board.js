@@ -6,6 +6,7 @@ import playerDataset from "../../Data/players.json";
 import { getLocalStorage, updateLocalStorage } from "../../Api/local";
 
 import Players from "./Players";
+import Search from "./Search";
 import ResetBtn from "./ResetBtn";
 
 export default function Board() {
@@ -95,20 +96,33 @@ export default function Board() {
 
   return (
     <Flex direction='column'>
-      <Flex justifyContent='flex-end'>
-        <ResetBtn onConfirm={resetDraftSession} />
+      <Flex direction='column' flexGrow={1}>
+        <Flex justifyContent='flex-end'>
+          <ResetBtn onConfirm={resetDraftSession} />
+        </Flex>
+        <Players
+          players={visiblePlayers}
+          liked={liked}
+          avoided={avoided}
+          keepers={keepers}
+          draftSessionSequence={draftSessionSequence}
+          onPlayerDrafted={handlePlayerDrafted}
+          onPlayerLiked={handlePlayerLiked}
+          onPlayerAvoided={handlePlayerAvoided}
+          onPlayerKeeper={handlePlayerKeeper}
+        />
       </Flex>
-      <Players
-        players={visiblePlayers}
-        liked={liked}
-        avoided={avoided}
-        keepers={keepers}
-        draftSessionSequence={draftSessionSequence}
-        onPlayerDrafted={handlePlayerDrafted}
-        onPlayerLiked={handlePlayerLiked}
-        onPlayerAvoided={handlePlayerAvoided}
-        onPlayerKeeper={handlePlayerKeeper}
-      />
+      {/* <Flex
+        flexShrink={0}
+        direction='column'
+        position='sticky'
+        bottom={0}
+        bg='dark.600'
+        px={4}
+        py={2}
+      >
+        <Search />
+      </Flex> */}
     </Flex>
   );
 }

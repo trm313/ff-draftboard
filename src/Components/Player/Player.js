@@ -15,6 +15,7 @@ import useOnClickOutside from "../../Hooks/useOnClickOutside.js";
 
 import { styles, icons } from "./styles.js";
 import ActionBar from "./ActionBar";
+import AdpValueIndicator from "./AdpValueIndicator.js";
 
 const Player = ({
   player,
@@ -125,6 +126,10 @@ const Player = ({
               mr={2}
             />
           )}
+        </Flex>
+
+        <Flex flexShrink={0} mr={4}>
+          <AdpValueIndicator value={player.vsADP} />
         </Flex>
 
         <Flex alignItems='center'>
