@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Flex, Text, Button, Icon } from "@chakra-ui/react";
+import { ImUndo } from "react-icons/im";
 
 import playerDataset from "../../Data/players.json";
 import { getLocalStorage, updateLocalStorage } from "../../Api/local";
 
 import Players from "./Players";
+import ResetBtn from "./ResetBtn";
 
 export default function Board() {
   let playersData = playerDataset.sort((a, z) => a.rank - z.rank);
-  // let keepers = ["player_1", "player_13"];
 
   // STATE
 
@@ -95,7 +96,7 @@ export default function Board() {
   return (
     <Flex direction='column'>
       <Flex justifyContent='flex-end'>
-        <Button onClick={() => resetDraftSession()}>Reset</Button>
+        <ResetBtn onConfirm={resetDraftSession} />
       </Flex>
       <Players
         players={visiblePlayers}

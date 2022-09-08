@@ -46,7 +46,13 @@ const Tier = ({ children, tier, hasAvailablePlayers }) => {
         alignSelf='start'
         px={12}
         py={2}
+        mb={4}
         onClick={() => toggleOpen()}
+        sx={{
+          position: "-webkit-sticky", // JS version: https://www.npmjs.com/package/react-sticky
+          position: "sticky",
+          top: 0,
+        }}
       >
         <Text textTransform='uppercase' fontSize='sm' fontWeight='bold'>
           Tier {tier}

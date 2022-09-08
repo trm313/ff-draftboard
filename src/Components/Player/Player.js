@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import {
   Flex,
   Text,
@@ -10,6 +10,9 @@ import {
 } from "@chakra-ui/react";
 import { TbDots } from "react-icons/tb";
 import { GrFormClose } from "react-icons/gr";
+
+import useOnClickOutside from "../../Hooks/useOnClickOutside.js";
+
 import { styles, icons } from "./styles.js";
 import ActionBar from "./ActionBar";
 
@@ -24,7 +27,16 @@ const Player = ({
   onAvoided,
   onKeeper,
 }) => {
+  const ref = useRef();
   const { isOpen, onToggle } = useDisclosure();
+  useOnClickOutside(ref, () => closeActionBar());
+
+  const openActionBar = () => {
+    if (!isOpen) onToggle();
+  };
+  const closeActionBar = () => {
+    if (isOpen) onToggle();
+  };
 
   const handleAction = (type) => {
     if (type === "draft") onDrafted(player);
@@ -47,6 +59,7 @@ const Player = ({
 
   return (
     <Flex
+      // ref={ref}
       alignItems='center'
       justifyContent='space-between'
       mb={1}
@@ -70,7 +83,7 @@ const Player = ({
         </Flex>
         <Text>{player.name}</Text>
       </Flex>
-      <Flex position='relative'>
+      <Flex position='relative' ref={ref}>
         <Flex
           alignItems='center'
           mr={4}
@@ -120,16 +133,13 @@ const Player = ({
             size='sm'
             rounded='full'
             onClick={onToggle}
+            // onClick={isOpen ? () => closeActionBar() : () => openActionBar()}
           />
         </Flex>
 
         <SlideFade offsetY='20px' in={isOpen} zIndex={1} unmountOnExit={true}>
           <Box position='absolute' top={"-150%"} right={0} zIndex={1}>
-            <ActionBar
-              onClose={onToggle}
-              onAction={handleAction}
-              active={activeIndicators}
-            />
+            <ActionBar onAction={handleAction} active={activeIndicators} />
           </Box>
         </SlideFade>
       </Flex>

@@ -7,7 +7,6 @@ import ActionBtn from "./ActionBtn";
 
 const ActionBar = ({
   actions = ["keeper", "like", "avoid", "draft"],
-  onClose,
   onAction,
   active = [],
 }) => {
