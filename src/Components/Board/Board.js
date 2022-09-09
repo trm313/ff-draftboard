@@ -10,7 +10,8 @@ import Search from "./Search";
 import ResetBtn from "./ResetBtn";
 
 export default function Board() {
-  let playersData = playerDataset.sort((a, z) => a.rank - z.rank);
+  let playersData = playerDataset.sort((a, z) => a.tier - z.tier);
+  playersData = playerDataset.sort((a, z) => a.rank - z.rank);
 
   // STATE
 

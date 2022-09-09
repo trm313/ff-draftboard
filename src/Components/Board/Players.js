@@ -36,8 +36,9 @@ export default function Players({
     return remainingPlayersInTier;
   };
 
-  const getPlayersForRank = (rank) => {
-    let playersInRank = players.filter((p) => p.rank === rank);
+  const getPlayersForRank = (rank, tier) => {
+    let playersInRank = players.filter((p) => p.tier === tier);
+    playersInRank = playersInRank.filter((p) => p.rank === rank);
     return playersInRank;
   };
 
@@ -54,7 +55,7 @@ export default function Players({
             hasAvailablePlayers={getRemainingPlayersInTier(t).length > 0}
           >
             {ranksInTier.map((rank) => {
-              let playersInRank = getPlayersForRank(rank);
+              let playersInRank = getPlayersForRank(rank, t);
               return (
                 <Rank key={`rank_${rank}`} rank={rank}>
                   {playersInRank.map((player) => (
