@@ -149,7 +149,7 @@ const Player = ({
           />
         </Flex>
 
-        <SlideFade offsetY='20px' in={isOpen} zIndex={1} unmountOnExit={true}>
+        <SlideFade offsetY='20px' in={isOpen} unmountOnExit={true}>
           <Box position='absolute' top={"-150%"} right={0} zIndex={1}>
             <ActionBar onAction={handleAction} active={activeIndicators} />
           </Box>

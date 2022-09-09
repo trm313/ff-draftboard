@@ -32,7 +32,7 @@ const ResetBtn = ({ onConfirm }) => {
       <Button onClick={onToggle} leftIcon={<Icon as={ImUndo} />} fontSize='sm'>
         Reset Drafted
       </Button>
-      <SlideFade offsetY='-20px' in={isOpen} zIndex={1} unmountOnExit={true}>
+      <SlideFade offsetY='-20px' in={isOpen} unmountOnExit={true}>
         <Box position='absolute' top={"150%"} right={0} zIndex={1} w={60}>
           <Flex direction='column' bg='gray.800' p={8}>
             <Flex direction='column' mb={4}>
