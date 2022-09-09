@@ -28,12 +28,12 @@ export const styles = {
   position: {
     bg: {
       drafted: "gray.300",
-      RB: "blue.600",
-      WR: "green.600",
-      TE: "orange.600",
-      QB: "red.600",
+      WR: "blue.600",
+      RB: "green.600",
+      TE: "orange.500",
+      QB: "red.700",
       DST: "blue.800",
-      K: "pink.600",
+      K: "pink.800",
     },
     color: {
       drafted: "gray.400",
