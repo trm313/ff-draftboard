@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   Flex,
   Text,
@@ -27,6 +27,8 @@ const Player = ({
   onLiked,
   onAvoided,
   onKeeper,
+  isSearchMatch,
+  onEmitRef,
 }) => {
   const ref = useRef();
   const { isOpen, onToggle } = useDisclosure();
@@ -49,6 +51,12 @@ const Player = ({
     onToggle();
   };
 
+  useEffect(() => {
+    if (isSearchMatch) {
+      onEmitRef(ref);
+    }
+  }, [isSearchMatch, onEmitRef]);
+
   // Conditional state styling
   let activeIndicators = [];
   if (isLiked) activeIndicators.push("like");
@@ -60,6 +68,7 @@ const Player = ({
 
   return (
     <Flex
+      id={`board_player_{player.id}`}
       // ref={ref}
       alignItems='center'
       justifyContent='space-between'

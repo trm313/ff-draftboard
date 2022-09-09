@@ -14,6 +14,8 @@ export default function Players({
   onPlayerLiked,
   onPlayerAvoided,
   onPlayerKeeper,
+  searchMatchId,
+  handleScrollToPlayerRef,
 }) {
   const getTiers = (players) => {
     let tiers = players.map((p) => p.tier);
@@ -70,6 +72,8 @@ export default function Players({
                       onLiked={onPlayerLiked}
                       onAvoided={onPlayerAvoided}
                       onKeeper={onPlayerKeeper}
+                      isSearchMatch={searchMatchId === player.id}
+                      onEmitRef={handleScrollToPlayerRef}
                     />
                   ))}
                 </Rank>

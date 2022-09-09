@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Flex, Text, Button, Icon } from "@chakra-ui/react";
 import { ImUndo } from "react-icons/im";
 
+import scrollIntoView from "scroll-into-view";
+
 import playerDataset from "../../Data/players.json";
 import { getLocalStorage, updateLocalStorage } from "../../Api/local";
 
@@ -15,14 +17,79 @@ export default function Board() {
 
   // STATE
 
+  // STATE > Players
   const [visiblePlayers, setVisiblePlayers] = useState(playersData);
   const [draftSessionSequence, setDraftSessionSequence] = useState([]);
 
+  // STATE > Search
+  const [searchMatches, setSearchMatches] = useState({
+    term: null,
+    matches: [],
+    index: 0,
+  });
+  const [searchMatchId, setSearchMatchId] = useState(null);
+  // const [activeSearchIndex, setActiveSearchIndex] = useState(0);
+
+  // STATE > Indicators
   const [liked, setLiked] = useState([]);
   const [avoided, setAvoided] = useState([]);
   const [keepers, setKeepers] = useState([]);
 
   // FUNCTIONS
+
+  const handleScrollToPlayerRef = (ref) => {
+    console.log("handleScrollToPlayerRef", ref);
+    scrollIntoView(ref.current);
+  };
+
+  const handleSearch = (term) => {
+    let matches = null;
+    if (term && term !== "") {
+      matches = visiblePlayers.filter((p) =>
+        p.name.toLowerCase().includes(term.toLowerCase())
+      );
+    }
+
+    setSearchMatches({
+      term,
+      matches,
+      index: 0,
+    });
+  };
+
+  const goToNextSearchMatch = () => {
+    if (searchMatches.matches.length > searchMatches.index + 1) {
+      console.log("goToNext");
+      setSearchMatches((current) => {
+        return {
+          ...current,
+          index: current.index + 1,
+        };
+      });
+    } else {
+      console.log("goToFirst");
+      setSearchMatches((current) => {
+        return { ...current, index: 0 };
+      });
+    }
+  };
+
+  const goToPrevSearchMatch = () => {
+    if (searchMatches.index - 1 >= 0) {
+      console.log("goToPrev");
+      setSearchMatches((current) => {
+        return {
+          ...current,
+          index: current.index - 1,
+        };
+      });
+    } else {
+      console.log("goToLast");
+      setSearchMatches((current) => {
+        return { ...current, index: current.matches.length - 1 };
+      });
+    }
+  };
 
   const handlePlayerLiked = (id) => {
     let state = [...liked];
@@ -95,6 +162,27 @@ export default function Board() {
     loadDataFromLocalStorage();
   }, []);
 
+  useEffect(() => {
+    if (searchMatches.matches.length > 0) {
+      let id = searchMatches.matches[searchMatches.index].id;
+      setSearchMatchId(id);
+    }
+  }, [searchMatches]);
+
+  // useEffect(() => {
+  //   // Search matches has changed -> reset index
+  //   setActiveSearchIndex(0);
+  // }, [searchMatches]);
+
+  // useEffect(() => {
+  //   // Search index has changed
+  //   // If there are matches, scroll to its match
+  //   if (searchMatches && searchMatches.length > 0) {
+  //     let id = searchMatches[activeSearchIndex].id;
+  //     scrollToPlayerId(id);
+  //   }
+  // }, [activeSearchIndex, searchMatches]);
+
   return (
     <Flex direction='column'>
       <Flex direction='column' flexGrow={1}>
@@ -111,9 +199,11 @@ export default function Board() {
           onPlayerLiked={handlePlayerLiked}
           onPlayerAvoided={handlePlayerAvoided}
           onPlayerKeeper={handlePlayerKeeper}
+          searchMatchId={searchMatchId}
+          handleScrollToPlayerRef={handleScrollToPlayerRef}
         />
       </Flex>
-      {/* <Flex
+      <Flex
         flexShrink={0}
         direction='column'
         position='sticky'
@@ -122,8 +212,13 @@ export default function Board() {
         px={4}
         py={2}
       >
-        <Search />
-      </Flex> */}
+        <Search
+          onSearch={handleSearch}
+          onNext={goToNextSearchMatch}
+          onPrev={goToPrevSearchMatch}
+          matches={searchMatches}
+        />
+      </Flex>
     </Flex>
   );
 }
