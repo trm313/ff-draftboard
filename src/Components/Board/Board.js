@@ -28,7 +28,6 @@ export default function Board() {
     index: 0,
   });
   const [searchMatchId, setSearchMatchId] = useState(null);
-  // const [activeSearchIndex, setActiveSearchIndex] = useState(0);
 
   // STATE > Indicators
   const [liked, setLiked] = useState([]);
@@ -38,12 +37,11 @@ export default function Board() {
   // FUNCTIONS
 
   const handleScrollToPlayerRef = (ref) => {
-    console.log("handleScrollToPlayerRef", ref);
     scrollIntoView(ref.current);
   };
 
   const handleSearch = (term) => {
-    let matches = null;
+    let matches = [];
     if (term && term !== "") {
       matches = visiblePlayers.filter((p) =>
         p.name.toLowerCase().includes(term.toLowerCase())
@@ -59,7 +57,7 @@ export default function Board() {
 
   const goToNextSearchMatch = () => {
     if (searchMatches.matches.length > searchMatches.index + 1) {
-      console.log("goToNext");
+      // Go to next
       setSearchMatches((current) => {
         return {
           ...current,
@@ -67,7 +65,7 @@ export default function Board() {
         };
       });
     } else {
-      console.log("goToFirst");
+      // Go to first
       setSearchMatches((current) => {
         return { ...current, index: 0 };
       });
@@ -76,7 +74,7 @@ export default function Board() {
 
   const goToPrevSearchMatch = () => {
     if (searchMatches.index - 1 >= 0) {
-      console.log("goToPrev");
+      // Go to previous
       setSearchMatches((current) => {
         return {
           ...current,
@@ -84,7 +82,7 @@ export default function Board() {
         };
       });
     } else {
-      console.log("goToLast");
+      // Go to last
       setSearchMatches((current) => {
         return { ...current, index: current.matches.length - 1 };
       });
@@ -166,22 +164,10 @@ export default function Board() {
     if (searchMatches.matches.length > 0) {
       let id = searchMatches.matches[searchMatches.index].id;
       setSearchMatchId(id);
+    } else {
+      setSearchMatchId(null);
     }
   }, [searchMatches]);
-
-  // useEffect(() => {
-  //   // Search matches has changed -> reset index
-  //   setActiveSearchIndex(0);
-  // }, [searchMatches]);
-
-  // useEffect(() => {
-  //   // Search index has changed
-  //   // If there are matches, scroll to its match
-  //   if (searchMatches && searchMatches.length > 0) {
-  //     let id = searchMatches[activeSearchIndex].id;
-  //     scrollToPlayerId(id);
-  //   }
-  // }, [activeSearchIndex, searchMatches]);
 
   return (
     <Flex direction='column'>

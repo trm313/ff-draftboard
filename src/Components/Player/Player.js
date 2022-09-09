@@ -68,12 +68,11 @@ const Player = ({
 
   return (
     <Flex
-      id={`board_player_{player.id}`}
-      // ref={ref}
       alignItems='center'
       justifyContent='space-between'
       mb={1}
-      bg='dark.600'
+      bg={"dark.600"}
+      border={isSearchMatch && "1px solid yellow"}
       pr={1}
     >
       <Flex
@@ -147,7 +146,6 @@ const Player = ({
             size='sm'
             rounded='full'
             onClick={onToggle}
-            // onClick={isOpen ? () => closeActionBar() : () => openActionBar()}
           />
         </Flex>
 
